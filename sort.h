@@ -32,5 +32,8 @@ void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap(listint_t **list, listint_t *node);
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void TDSplitMerge(size_t start, size_t end, int *array, int *copy);
+void TDMerge(size_t start, size_t middle, size_t end, int *dest, int *source);
 
 #endif
