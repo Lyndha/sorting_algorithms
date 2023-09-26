@@ -38,5 +38,8 @@ void TDMerge(size_t start, size_t middle, size_t end, int *dest, int *source);
 void heap_sort(int *array, size_t size);
 void make_heap(int *array, size_t size);
 void sift_down(int *array, size_t root, size_t end, size_t size);
+void radix_sort(int *array, size_t size);
+unsigned int count_sort(int *array, size_t size, unsigned int digit);
+unsigned int pow_10(unsigned int power);
 
 #endif
