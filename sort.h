@@ -48,5 +48,8 @@ void bitonic_sort(int *array, size_t size);
 size_t partition(int *array, ssize_t lo, ssize_t hi, size_t size);
 void quicksort(int *array, ssize_t lo, ssize_t hi, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void sort_deck(deck_node_t **deck);
+void swap_node(deck_node_t **list, deck_node_t *node);
+int get_val(const char *str);
 
 #endif
