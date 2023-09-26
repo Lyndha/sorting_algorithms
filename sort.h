@@ -41,5 +41,9 @@ void sift_down(int *array, size_t root, size_t end, size_t size);
 void radix_sort(int *array, size_t size);
 unsigned int count_sort(int *array, size_t size, unsigned int digit);
 unsigned int pow_10(unsigned int power);
+void bitonic_compare(char up, int *array, size_t size);
+void bitonic_merge(char up, int *array, size_t size);
+void bit_sort(char up, int *array, size_t size, size_t t);
+void bitonic_sort(int *array, size_t size);
 
 #endif
